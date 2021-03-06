@@ -1,0 +1,209 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {55, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "font_size" : 18,
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "AFC4E567-06ED-41FF-8469-85F3D1A5F330",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Адрес",
+          "name" : "lbl_target",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{69, 6}, {186, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "W",
+          "placeholder" : "192.168.1.66",
+          "font_size" : 17,
+          "frame" : "{{60, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "3DD53F1A-5289-4107-93C3-1F2B9A75350C",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "target",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{114, 46}, {200, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "action" : "slider_changed",
+          "flex" : "W",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "uuid" : "17EEB8CD-D8A2-4EAC-859B-70581E3AD779",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "brightness"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{114, 88}, {200, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "action" : "slider_changed",
+          "flex" : "W",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "uuid" : "9192D498-F5B9-4EEB-B683-C89E669F11E0",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "speed"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 46}, {100, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "0A953669-6CB0-405E-824B-74C58FD67A93",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Яркость",
+          "name" : "lbl_brightness",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 90}, {100, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "183B4973-F24B-4D2F-9AF3-34388499A179",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Скорость",
+          "name" : "lbl_speed",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 132}, {100, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "6C98E2BC-2296-4A40-9761-9DFDDAF470D7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Масштаб",
+          "name" : "lbl_scale",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{114, 130}, {200, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "action" : "slider_changed",
+          "flex" : "W",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "uuid" : "3F5B7FA9-324E-4646-BB5E-66AAAD7E9FEB",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "scale"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{263, 6}, {51, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LB",
+          "action" : "btn_connect_click",
+          "name" : "connect",
+          "frame" : "{{120, 284}, {80, 32}}",
+          "title" : "",
+          "uuid" : "8500C4E2-D2EE-4B37-B779-D4C798D38A26",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:ios7_cloud_upload_outline_32"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 172}, {308, 302}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "CA313DA0-755D-49D3-91DC-4F3E2930B901",
+          "data_source_action" : "select_mode",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_items" : "Конфетти\nОгонь\nРадуга вертикальная\nРадуга горизонтальная\nСмена цвета\nБезумие 3D\nОблака 3D\nЛава 3D\nПлазма 3D\nРадуга 3D\nПавлин 3D\nЗебра 3D\nЛес 3D\nОкеан 3D\nЦвет\nСнег\nМатрица\nСветлячки",
+          "data_source_number_of_lines" : 1,
+          "border_width" : 0,
+          "border_color" : "RGBA(0.333333,0.555556,1.000000,1.000000)",
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 24,
+          "class" : "TableView",
+          "name" : "modes",
+          "flex" : "WH"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "custom_class" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
