@@ -59,6 +59,7 @@ def btn_connect_click(sender):
     target = view['target'].text.split(':')
     if len(target) < 2:
         target.append(8888)
+    target[1] = int(target[1])
     lamp.target = tuple(target)
     response = lamp.cur_mode()
     parse_response(response)
